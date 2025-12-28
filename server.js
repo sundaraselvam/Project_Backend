@@ -17,8 +17,8 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' 
-    ? 'https://your-frontend.netlify.app' 
+  origin: process.env.NODE_ENV === 'production'
+    ? 'https://job-portal-project-guvi.netlify.app'
     : 'http://localhost:3000'
 }));
 
